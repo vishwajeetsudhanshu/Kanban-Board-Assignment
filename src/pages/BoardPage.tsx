@@ -25,7 +25,7 @@ export default function BoardPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-200">
       <div className="bg-white shadow-md px-10 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-indigo-600">Kanban Board</h1>
+        <h1 className="text-2xl font-bold text-pink-600">Kanban Board Assignment</h1>
 
         <div className="flex items-center gap-6">
           <span className="text-gray-600">
