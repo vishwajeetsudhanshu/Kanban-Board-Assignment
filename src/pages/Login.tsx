@@ -12,7 +12,7 @@ export default function Login() {
     password: "",
   });
 
-  const [showPassword, setShowPassword] = useState(false);
+ // const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
