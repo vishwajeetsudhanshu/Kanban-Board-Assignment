@@ -37,9 +37,9 @@ export default function Login() {
 
       <div className="bg-white shadow-2xl rounded-2xl w-[400px] p-8">
 
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
+        {/* <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
           Welcome Back 👋
-        </h2>
+        </h2> */}
 
         {error && (
           <div className="bg-red-100 text-red-600 p-2 rounded mb-4 text-sm text-center">
@@ -65,7 +65,7 @@ export default function Login() {
           </div>
 
           {/* Email */}
-          {/* <div>
+          <div>
             <label className="block text-gray-600 text-sm mb-1">
               Email
             </label>
@@ -77,15 +77,7 @@ export default function Login() {
               placeholder="Enter your email"
               className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-400"
             />
-          </div> */}
-          <input
-            type="email"
-            name="email"
-            placeholder="Enter your email"
-            value={form.email}
-            onChange={handleChange}
-            className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-400"
-          />
+          </div>
 
           {/* Password */}
           <div>
@@ -103,13 +95,13 @@ export default function Login() {
                 className="w-full border rounded-lg px-4 py-2 pr-12 focus:outline-none focus:ring-2 focus:ring-indigo-400"
               />
 
-              {/* <button
+              <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
                 className="absolute right-3 top-2 text-gray-500 text-sm"
               >
                 {showPassword ? "Hide" : "Show"}
-              </button> */}
+              </button>
             </div>
           </div>
 
@@ -131,4 +123,4 @@ export default function Login() {
       </div>
     </div>
   );
-}
+}simple login page
