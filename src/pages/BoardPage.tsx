@@ -29,7 +29,7 @@ export default function BoardPage() {
 
         <div className="flex items-center gap-6">
           <span className="text-gray-600">
-            Welcome, <span className="font-semibold">{user}</span>
+            Welcome <span className="font-semibold">{user}</span>
           </span>
 
           <button
