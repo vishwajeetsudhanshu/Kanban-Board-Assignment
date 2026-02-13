@@ -13,9 +13,9 @@ export default function Home() {
       <nav className="flex justify-between items-center px-6 md:px-12 py-5 bg-white shadow-sm">
         <h1
           onClick={() => navigate("/")}
-          className="text-2xl font-bold text-green-600 cursor-pointer"
+          className="text-2xl font-bold text-red-600 cursor-pointer"
         >
-          Kanbanpro
+          Kanban Board
         </h1>
 
         <div className="space-x-6 hidden md:flex">
@@ -60,7 +60,7 @@ export default function Home() {
 
           <div className="text-lg text-gray-700 leading-relaxed">
             <p>
-              The <span className="text-blue-600 font-medium">kanban board</span>{" "}
+              The kanban board
               gives your team full visibility into ongoing work.
             </p>
             <p>Optimize workflows and eliminate bottlenecks.</p>
@@ -70,7 +70,7 @@ export default function Home() {
 
           <button
             onClick={() => navigate("/login")}
-            className="bg-red-500 hover:bg-red-600 transition text-white px-8 py-3 rounded-lg text-lg font-semibold shadow-lg"
+            className="bg-blue-500 hover:bg-red-600 transition text-white px-8 py-3 rounded-lg text-lg font-semibold shadow-lg"
           >
             Sign Up For Free
           </button>
@@ -80,7 +80,7 @@ export default function Home() {
         <div className="md:w-1/2 mt-16 md:mt-0 flex gap-6 justify-center flex-wrap">
           
           {/* Column 1 */}
-          <div className="bg-white rounded-xl shadow-xl p-4 w-48">
+          {/* <div className="bg-white rounded-xl shadow-xl p-4 w-48">
             <h3 className="font-semibold mb-3 text-gray-700">To Do</h3>
             <div className="bg-gray-100 p-3 rounded mb-3 shadow-sm">
               Design UI
@@ -88,25 +88,25 @@ export default function Home() {
             <div className="bg-gray-100 p-3 rounded shadow-sm">
               Setup API
             </div>
-          </div>
+          </div> */}
 
           {/* Column 2 */}
-          <div className="bg-white rounded-xl shadow-xl p-4 w-48">
+          {/* <div className="bg-white rounded-xl shadow-xl p-4 w-48">
             <h3 className="font-semibold mb-3 text-gray-700">
               In Progress
             </h3>
             <div className="bg-yellow-100 p-3 rounded mb-3 shadow-sm">
               Build Components
             </div>
-          </div>
+          </div> */}
 
           {/* Column 3 */}
-          <div className="bg-white rounded-xl shadow-xl p-4 w-48">
+          {/* <div className="bg-white rounded-xl shadow-xl p-4 w-48">
             <h3 className="font-semibold mb-3 text-gray-700">Done</h3>
             <div className="bg-green-100 p-3 rounded shadow-sm">
               Project Setup
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
