@@ -24,7 +24,7 @@ export default function Login() {
     }
 
     // Simple mock login
-    navigate("/dashboard");
+    navigate("/board");
   };
 
   return (
